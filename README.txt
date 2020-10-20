@@ -3,7 +3,7 @@ Dependency:-
 	Python 2.7
 	Postgres 11.x
 Assumption:-
-	Database should be already created in the postgres server. Our code will handle the creation of table.
+	Database should be already created in the postgres server.Postgres server services should be running.  Our code will handle the creation of table.
 	Code can read the database related information from environment variable. If It is not available then it read the constant file. 
 	User can modify the constant.py based on database configuration. 
 	
@@ -33,6 +33,9 @@ About code flow:-
 	http://127.0.0.1:9001/stop (To Stop the server)
 	Patch:-
 	http://127.0.0.1:9001/users/<id>
+	Get:-
+	http://127.0.0.1:9001/secret
+	
 
 For Any question/clarification Please ping me :- ashutosh100ankit@gmail.com
 You can access the test recording :- https://Dell.zoom.us/rec/share/4zNmx_23eMbXMekUFChZ3tBtvsTBBVz5m4mtLYn8e2BQsaKUFQIlQ8B088GaKrCN.4Zbt355_X9w-1ov7 Passcode: p8QB55Y%
